@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# Local Database & Storage
+documents.db
+uploads/*.pdf
+!uploads/.gitkeep
+chroma_db/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
